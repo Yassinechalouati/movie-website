@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="hero" id="hero">
+        <nav > 
+            <a class= "title" href="#" >Moviez</a>
+            <ul id="nav-content">
+                <li><a class="active" href="#home">Home</a> </li>
+                <li> <a href ="#series"> Tv Shows</a> </li>
+                <li> <a href="#movies">Movies</a> </li>
+                <li> <a href="#My_List">My List</a> </li>
+                <li> <a href="#blog">Blog</a> </li>
+            </ul>
+        </nav>
+        <div class="container">
+          <div class="movie-star">
+          <div id="movie-name"></div>
+          <div class="stars">
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star checked"></span>
+            <span class="fa fa-star"></span>
+            <span class="fa fa-star"></span>
+          </div>
+        </div>
+        <div class="movie-info">
+          <div class="text">HD</div>
+          <span class="fa fa-star checked" id ="nb_stars"></span>
+          <div class="duration"></div>
+          
+        </div>
+        <div class="movie-description">
+          </div>
+
+          <div class="buttons">
+            <button class="p-button" onmouseover="icon('play-button-arrowhead-hover')" onmouseout="icon('play-button-arrowhead')">
+              <div > <img class="button-icon" src="../assets/icons/play-button-arrowhead.png" alt="play-button"></div>
+              <div class="label">Watch Now</div>
+            </button>
+            <button class="l-button" onmouseover="icon_2('heart-hover')" onmouseout="icon_2('heart')">
+              <div> <img class="button-icon1" src="../assets/icons/heart.png" alt="like-button"></div>
+              <div class="label1">Add to list</div>
+            </button> 
+          </div>
+        
+        
+        </div>
+      
+    </div>
+    
+    <div class="comment-part">
+      <div class="comment-section">
+        <h1 class="comment-title"></h1>
+        <h3 class="comment-number"></h3>
+        <hr class="line_break"> 
+        <div class="comment-type">
+          <img alt="Avatar" class="Profile">
+          <div class="comment-field">
+            <input class="send_comment" type="text" placeholder="Write a comment...">
+          </div>
+        </div>
+          
+        
+       
+        
+        
+       
+      </div>
+    </div>
+
+    <script src="../node_modules/axios/dist/axios.min.js"></script>
+    <script src="script.js"> </script>
+</body>
+
+
+</html>

@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito';
+    background-color: #0e121a;
+    color: white;
+}
+
+
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+   
+}
+.blog-box{
+    width: 373px;
+    background-image: linear-gradient(to top, #13c6b1, #00949d, #006479, #19384b, #0e121a);
+    border: 1px solid #ececec;
+    margin: 10px;
+}
+.bigtext { /* styling the online cinema text */
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    padding-top: 95px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.blog-img{
+    width: 100%;
+    height: auto;
+}
+.blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position:center ;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction:column ;
+}
+.blog-text span{
+    color: white;
+    font-size: 0.9rem;
+}
+.blog-text .blog-title{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+
+}
+.blog-text .blog-title:hover{
+    transition: all ease 0.3s;
+    color: #19384b;
+}
+.blog-text p{
+    font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient:vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.blog-text a {
+    color:white;
+}
+.blog-text a:hover{
+    color:#19384b;
+    transition: all ease 0.3s;
+}
+
+  
+  .action {
+    display: inline-flex;
+    margin-top: 1rem;
+    color: #ffffff;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    align-items: center;
+    gap: 0.25rem;
+    /*background-color: #;*/
+    padding: 4px 8px;
+    border-radius: 5px;
+  }
+  
+  .action span {
+    transition: .3s ease;
+  }
+  
+  .action:hover span {
+    transform: translateX(4px);
+  }

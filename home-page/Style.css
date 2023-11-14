@@ -1,0 +1,52 @@
+
+
+.body-content{
+  display: flex;
+}
+
+.bigtext { /* styling the online cinema text */
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    padding-top: 95px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+  .paragraph {
+    font-size: 18px;
+    width: 70%;
+    color: grey;
+    line-height: 1.5;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+
+  .button-container {
+    display: flex;
+    margin-top: 50px;
+   
+  }
+  
+  .button {
+    background-color: #13c6b1;
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 50px;
+    text-decoration: none;
+    font-size: 22px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .button:hover {
+    background-color: #0f9c91;
+  }
+
+
+ 
+  .animation{
+    transform: translateY(10%);
+    
+  }
+  
+
+  
